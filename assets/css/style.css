@@ -65,7 +65,10 @@ color: #F6F6F6;
 max-width: 460px;
 width: 100%;
 }
-
+.destaques{
+    width: 100%;
+    padding: 0 2%;
+}
 .destaques__titulo{
     font-weight: 600;
 font-size: 32px;

@@ -96,6 +96,7 @@ margin-bottom: 60px;
     height: 300px;
     margin-bottom: 40px;
     padding: 76px 25px;
+    cursor: pointer;
 }
 .vitrine__img{
     width: 250px;

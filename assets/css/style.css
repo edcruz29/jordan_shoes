@@ -97,7 +97,10 @@ margin-bottom: 60px;
     background-color: #ebe9ea;
     width: 300px;
     height: 300px;
-    margin: 10px 5% 5% 40px;
+    margin-top: 0;
+    margin-left: 1.9%;
+    margin-right: 1.9%;
+    margin-bottom: 40px;
     padding: 76px 25px;
     cursor: pointer;
 }

@@ -24,59 +24,68 @@
       <div class="header__logo">
         <span class="header__logo_span">Jordan Shoes</span>
       </div>
-      <div class="header__banner">
-      </div>
+      <div class="header__banner"></div>
       <div class="header__banner__wrapper">
-        <h2 class="header__banner__titulo">A melhor loja de Jordan</h2>
-        <p class="header__banner__paragrafo">
-        O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o
-        jogador Michael Jordan.
-        </p>
-</div>
+        <h1 class="header__banner__titulo">A melhor loja de Jordan</h1>
+          <p class="header__banner__paragrafo" id="typed"></p>
+          <div  id="typed-strings">
+          <p >O tênis Jordan é fruto de uma velha parceiria entre a Nike e o jogador Michael Jordan</p>
+          </div>
+        </div>
+     
     </header>
     <section class="destaques">
-        <h2 class="destaques__titulo">Destaques</h2>
-        <p class="destaques__paragrafo">Frete Grátis e chinelo de brinde é aqui, aproveite por tempo limitado</p>
-        <div class="destaques__vitrine">
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/1.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/2.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/3.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/4.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/5.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/6.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/7.png" alt="">
-            </div>
-            <div class="destaques__vitrine__unitario">
-                <img class="vitrine__img" src="./assets/img/8.png" alt="">
-            </div>
+      <h2 class="destaques__titulo">Destaques</h2>
+      <p class="destaques__paragrafo">
+        Frete Grátis e chinelo de brinde é aqui, aproveite por tempo limitado
+      </p>
+      <div class="destaques__vitrine">
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/1.png" alt="" />
         </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/2.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/3.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/4.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/5.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/6.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/7.png" alt="" />
+        </div>
+        <div class="destaques__vitrine__unitario">
+          <img class="vitrine__img" src="./assets/img/8.png" alt="" />
+        </div>
+      </div>
     </section>
     <footer class="footer">
-        <p class="footer__paragrafo">Todos os direitos reservados</p>
+      <p class="footer__paragrafo">Todos os direitos reservados</p>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
       const sr = ScrollReveal({
-          origin: 'top',
-          distance: '50px',
-          duration: 2000,
-          reset: true
+        origin: "top",
+        distance: "50px",
+        duration: 2000,
+        reset: true,
       });
 
-      ScrollReveal().reveal('.destaques__vitrine__unitario', { delay: 200 });
-</script>
+      ScrollReveal().reveal(".destaques__vitrine__unitario", { delay: 200 });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      const typed = new Typed("#typed", {
+        stringsElement: '#typed-strings',
+        typeSpeed: 30,
+      });
+    </script>
   </body>
 </html>
